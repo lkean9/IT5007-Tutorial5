@@ -24,4 +24,6 @@ Please follow the below steps to initialize the project:
 
 - __*node scripts/trymongo.js*__ to run the script.
 
+Please refer to the WORD document submitted under LumiNUS for the screenshot of mongoDB CRUD operations output.
+
 
