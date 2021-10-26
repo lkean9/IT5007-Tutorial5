@@ -1,0 +1,29 @@
+type Reservation {
+    _id: ID!
+    serialNo: Int!
+    firstName: String!
+    lastName: String!
+    phoneNo: String!
+    timestamp: String!
+}
+
+"Toned down Reservation, used as inputs, without generated values."
+input ReservationInputs {
+    serialNo: Int
+    firstName: String
+    lastName: String
+    phoneNo: String
+}
+
+##### Top Level declarations
+
+type Query {
+    about: String!
+    reservationList: [Reservation!]!
+}
+
+type Mutation {
+    setAboutMessage(message: String!): String
+    reservationAdd(reservation: ReservationInputs!): Reservation!
+    reservationDelete(serialNo: Int!): String!
+}

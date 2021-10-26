@@ -1,0 +1,96 @@
+html {
+    font-family: Helvetica sans-serif;
+}
+
+body {
+    font-size: 100%;
+    background-color: lightcyan;
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.35em;
+}
+
+p, ul {
+    font-size: 1.05em;
+    line-height: 2.1em;
+    text-align: justify;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+td {
+    border: 2px solid rgb(177, 177, 177);
+    padding: 8px;
+    color:black;
+}
+
+tr:nth-child(even) {
+    background-color: #d9ffdc;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+th {
+    border: 2px solid rgb(177, 177, 177);
+    padding: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #19a164;
+    color: white;
+}
+
+hr {
+    border-top: 3px double #8c8b8b;
+}
+
+#today, #curSlots {
+    display: inline;
+}
+
+label {
+    text-align: right;
+    float: left;
+    margin-right: 5px;
+}
+
+input {
+    float: left;
+    margin-right: 20px;
+}
+
+div.Outline {
+    border: 2px solid;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 10px 10px 10px 10px;
+}
+
+#reserve, #remove {
+    border: 2px double rgb(122, 195, 255);
+    border-radius: 20px;
+    margin: 30px, 0px, 30px, 0px;
+    padding: 10px 20px 50px 20px;
+}
